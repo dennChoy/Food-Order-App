@@ -25,6 +25,9 @@ const CartButton = (props) => {
       setBtnHighlited(false);
     }, 300);
 
+    return() => {
+      clearTimeout(timer);
+    };
   }, [items]);
 
     return(
