@@ -6,12 +6,12 @@ import CartButton from './CartButton';
 import classes from './Header.module.css';
 
 
-const Header = () => {
+const Header = (props) => {
     return(
         <React.Fragment>
             <header className={classes.header}>
                 <h1>El Rinconcito de Mamá Tita </h1>
-                <CartButton>asdfasdf </CartButton>
+                <CartButton onOpenModal={props.onOpenCart}/> 
             </header>
             <Banner/>
         </React.Fragment>
