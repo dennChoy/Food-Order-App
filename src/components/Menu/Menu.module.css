@@ -8,6 +8,11 @@
     margin-top: 1rem;
     animation: meals-appear 1s ease-out forwards;
 }
+
+.MealIsLoading{
+  text-align: center;
+  color: rgb(141, 95, 11);
+}
  
   .Menu ul {
     list-style: none;

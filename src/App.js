@@ -15,6 +15,7 @@ function App() {
   const hideModalHandler = () => {
     setModalOpen(false);
   }
+
   return (
     <CartProvider>
       {isModalOpen && <Cart onClick={hideModalHandler}/>}
